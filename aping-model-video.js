@@ -5,18 +5,18 @@ var video = {
     blog_link: undefined, //link to blog (channel / uploader / page / account, ...)
     timestamp: undefined, //timestamp of created_at
     date_time: undefined, //datetime of created_at
-    post_url: undefined, //URL to the post / video / tweet ...
-    intern_id: undefined, // INTERN ID of video (facebook id, youtube id, ...)
-    caption: undefined, // video title
-    text: undefined, // video description
-    img_url: undefined, // preview image url
-    source: undefined, // url to .mp4 file
-    markup: undefined, // markup to embed video
-    duration: undefined, // in seconds
-    width: undefined, // width in pixels
-    height: undefined, // height in pixels
-    comments: undefined, // comments_count
-    likes: undefined, // likes_count
-    shares: undefined, // shares_count
-    position: undefined // position in playlist
-};
+    post_url: undefined, //url to the video
+    intern_id: undefined, //INTERN ID of video (facebook id, youtube id, ...)
+    caption: undefined, //video title
+    text: undefined, //video description
+    img_url: undefined, //preview image url
+    source: undefined, //url to .mp4 file
+    markup: undefined, //markup to embed video
+    duration: undefined, //video duration in seconds
+    width: undefined, //width in pixels
+    height: undefined, //height in pixels
+    comments: undefined, //comments_count
+    likes: undefined, //likes_count
+    shares: undefined, //shares_count
+    position: undefined //position in playlist
+};;

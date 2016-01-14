@@ -1,12 +1,12 @@
 Universal **_VIDEO_** [model](https://aping.readme.io/docs/models) for [apiNG](https://github.com/JohnnyTheTank/apiNG)
 
 # apiNG plugins supporting video model
-- :fa-check-square-o: **Youtube** ([apiNG-plugin-youtube](https://github.com/JohnnyTheTank/apiNG-plugin-youtube))
-- :fa-check-square-o: **Instagram** ([apiNG-plugin-instagram](https://github.com/JohnnyTheTank/apiNG-plugin-instagram))
-- :fa-check-square-o: **Facebook** ([apiNG-plugin-facebook](https://github.com/JohnnyTheTank/apiNG-plugin-facebook))
-- :fa-check-square-o: **Vimeo** ([apiNG-plugin-vimeo](https://github.com/JohnnyTheTank/apiNG-plugin-vimeo))
-- :fa-check-square-o: **Dailymotion** ([apiNG-plugin-dailymotion](https://github.com/JohnnyTheTank/apiNG-plugin-dailymotion))
-- :fa-check-square-o: **Tumblr** ([apiNG-plugin-tumblr](https://github.com/JohnnyTheTank/apiNG-plugin-tumblr))
+- [x] **Youtube** ([apiNG-plugin-youtube](https://github.com/JohnnyTheTank/apiNG-plugin-youtube))
+- [x] **Instagram** ([apiNG-plugin-instagram](https://github.com/JohnnyTheTank/apiNG-plugin-instagram))
+- [x] **Facebook** ([apiNG-plugin-facebook](https://github.com/JohnnyTheTank/apiNG-plugin-facebook))
+- [x] **Vimeo** ([apiNG-plugin-vimeo](https://github.com/JohnnyTheTank/apiNG-plugin-vimeo))
+- [x] **Dailymotion** ([apiNG-plugin-dailymotion](https://github.com/JohnnyTheTank/apiNG-plugin-dailymotion))
+- [x] **Tumblr** ([apiNG-plugin-tumblr](https://github.com/JohnnyTheTank/apiNG-plugin-tumblr))
 
 
 # JavaScript
@@ -18,20 +18,20 @@ var video = {
     blog_link: undefined, //link to blog (channel / uploader / page / account, ...)
     timestamp: undefined, //timestamp of created_at
     date_time: undefined, //datetime of created_at
-    post_url: undefined, //URL to the post / video / tweet ...
-    intern_id: undefined, // INTERN ID of video (facebook id, youtube id, ...)
-    caption: undefined, // video title
-    text: undefined, // video description
-    img_url: undefined, // preview image url
-    source: undefined, // url to .mp4 file
-    markup: undefined, // markup to embed video
-    duration: undefined, // in seconds
-    width: undefined, // width in pixels
-    height: undefined, // height in pixels
-    comments: undefined, // comments_count
-    likes: undefined, // likes_count
-    shares: undefined, // shares_count
-    position: undefined // position in playlist
+    post_url: undefined, //url to the video
+    intern_id: undefined, //INTERN ID of video (facebook id, youtube id, ...)
+    caption: undefined, //video title
+    text: undefined, //video description
+    img_url: undefined, //preview image url
+    source: undefined, //url to .mp4 file
+    markup: undefined, //markup to embed video
+    duration: undefined, //video duration in seconds
+    width: undefined, //width in pixels
+    height: undefined, //height in pixels
+    comments: undefined, //comments_count
+    likes: undefined, //likes_count
+    shares: undefined, //shares_count
+    position: undefined //position in playlist
 };
 ```
 

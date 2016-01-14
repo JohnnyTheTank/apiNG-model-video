@@ -1,0 +1,22 @@
+{
+  "platform": false,
+  "blog_name": false,
+  "blog_id": false,
+  "blog_link": false,
+  "timestamp": false,
+  "date_time": false,
+  "post_url": false,
+  "intern_id": false,
+  "caption": false,
+  "text": false,
+  "img_url": false,
+  "source": false,
+  "markup": false,
+  "duration": false,
+  "width": false,
+  "height": false,
+  "comments": false,
+  "likes": false,
+  "shares": false,
+  "position": false
+}

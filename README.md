@@ -22,8 +22,9 @@ var video = {
     intern_id: undefined, //INTERN ID of video (facebook id, youtube id, ...)
     caption: undefined, //video title
     text: undefined, //video description
-    img_url: undefined, //preview image url (best case 700px)
     thumb_url: undefined, // best case 200px (min)
+    img_url: undefined, //preview image url (best case 700px)
+    native_url: undefined, // best quality
     source: undefined, //url to .mp4 file
     markup: undefined, //markup to embed video
     duration: undefined, //video duration in seconds
@@ -50,8 +51,9 @@ var video = {
   "intern_id": false,
   "caption": false,
   "text": false,
-  "img_url": false,
   "thumb_url": false,
+  "img_url": false,
+  "native_url": false,
   "source": false,
   "markup": false,
   "duration": false,

@@ -9,7 +9,8 @@ var video = {
     intern_id: undefined, //INTERN ID of video (facebook id, youtube id, ...)
     caption: undefined, //video title
     text: undefined, //video description
-    img_url: undefined, //preview image url
+    img_url: undefined, //preview image url (best case 700px)
+    thumb_url: undefined, // best case 200px (min)
     source: undefined, //url to .mp4 file
     markup: undefined, //markup to embed video
     duration: undefined, //video duration in seconds
@@ -19,4 +20,4 @@ var video = {
     likes: undefined, //likes_count
     shares: undefined, //shares_count
     position: undefined //position in playlist
-};;
+};

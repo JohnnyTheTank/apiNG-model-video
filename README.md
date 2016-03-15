@@ -1,6 +1,10 @@
+# apiNG-model-vieo
+[![Join the chat at https://gitter.im/JohnnyTheTank/apiNG](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/JohnnyTheTank/apiNG?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Universal **_VIDEO_** [model](https://aping.readme.io/docs/models) for [apiNG](https://github.com/JohnnyTheTank/apiNG)
 
-# Supported apiNG Plugins
+
+## Supported apiNG Plugins
 - [x] **Youtube** ([apiNG-plugin-youtube](https://github.com/JohnnyTheTank/apiNG-plugin-youtube))
 - [x] **Instagram** ([apiNG-plugin-instagram](https://github.com/JohnnyTheTank/apiNG-plugin-instagram))
 - [x] **Facebook** ([apiNG-plugin-facebook](https://github.com/JohnnyTheTank/apiNG-plugin-facebook))
@@ -9,7 +13,7 @@ Universal **_VIDEO_** [model](https://aping.readme.io/docs/models) for [apiNG](h
 - [x] **Tumblr** ([apiNG-plugin-tumblr](https://github.com/JohnnyTheTank/apiNG-plugin-tumblr))
 
 
-# JavaScript
+## JavaScript
 ```JavaScript
 var video = {
     platform: undefined, //NAME of platform ( "youtube" / "facebook", "instagram" , ...)
@@ -37,7 +41,7 @@ var video = {
 };
 ```
 
-# JSON
+## JSON
 
 ```JSON
 {
